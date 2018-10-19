@@ -2,6 +2,7 @@
 Automatic
 
 Cela est le gitHub du projet domotique. Déposez ici vos idées et ce que vous prévoyez de faire pour le site pour permettre une meilleure organisation.
+Après téléchargement il faut décompresser le dossier avant de l'utiliser pour que le site fonctionne correctement.
 
 
 Règlement contributeur:
