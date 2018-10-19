@@ -11,7 +11,7 @@ Règlement contributeur:
 Avant de commencer tout travail vérifier que vous êtes bien en posséssion de la derniere version 
 (tips on voit sur GitHub les dates de modifications;))
 
-        2.Modifier le Site directement sur le github et faire des sauvegarde régulières puis télécharger  pour le tester.
+        2.Modifier le Site directement sur le github et faire des sauvegarde régulières puis télécharger pour test.
 SINON on risque de détruire le travail des autres.Sinon faire un bout de code localement puis le
 copier coller sur le github. Le but est d'éviter de remplacer les fichiers mais uniquement les modifiers! 
 Pour une nouvelle page pas de soucis mais faire attention à que qq'un ne la pas déja créer.
