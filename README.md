@@ -20,10 +20,14 @@ Pour une nouvelle page pas de soucis mais faire attention à que qq'un ne la pas
 Ainsi faire attention à bien cibler ce que on veut mètre en forme sans modifier le travail des autres pour ainsi être
 sur de ne pas anéantir d'autre chose et donc verifier si le nouveau code modifie d'autre page est obligatoire.
 
-        4.Vous renseigner sur le code déja effectuer et de le comprendre
-Ainsi que le commenter et indiquer dans ce document les sources d'apprentissage utiliser.
+        4.Vous renseigner sur le code déja effectuer et de le comprendre.
+Indiquer dans ce document les sources d'apprentissage utiliser.
 
+        5.Parler à ceux qui ont fait qqch lier à ce que vous faite!
+Par Exemple ajouter des dossiers et sous dossiers permet une meilleur organisation du code mais il faut prévenir les autre de la modification pour metre à jours les adresses.
 
+        6.Commenter son code.
+Cela est obligatoire et vitale sans cela le code deviendra ilisible.
 
 Idée pour le site:-mise en place d'un systeme de question reponse
                   -création d'un forum basique
