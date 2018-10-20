@@ -1,3 +1,4 @@
+/*supression des marges par défaut des navigateurs*/
 body{
 	margin: 0px;
 	padding:0px;
@@ -6,10 +7,13 @@ body{
 h1{
 	text-align:center;
 }
+/*_____________banniere haute du site________________*/
 .nomsite{
 	text-align: center;
 	background: black; /*C'est ici que on choisi le fond du site au niveau du logo*/
 }
+/*________________fin banniere haute du site____________________*/
+/*_______________page de connection______________________*/
 .connection{
 	position: relative;
 	text-align: center;
@@ -18,49 +22,45 @@ h1{
 .Inscription{
 	text-align: center;
 }
-.Imagepresentation{
-	position: relative;
-	top:100px;
-	left: 200px;
-}
+/*_______________________fin page de connection_________________________*/
 /*_____________________________________menu_______________________________________________________*/
 nav{
-	width:100%;
+	width:100%;/*fait prendre au menu toute la largeur*/
 	background-color:green;/* C'est ici que on choisis les couleurs du menu*/
 } 
-.sousmenu{
+.sousmenu{/*le sous menu est caché de base*/
 	display:none;
 }
-nav>ul{
+nav>ul{/*supression des espaces des premiers ul*/
 	margin: 0px;
 	padding:0px;
 }
-nav>ul::after{
+nav>ul::after{ /*on permet au menu de rester visible et pas uniquememt quand on est dessus*/
 	content:"";
 	display: block;
 	clear:both;
 }
-nav>ul>li{
+nav>ul>li{/* position des sous liste*/
 	float:left;
 	position:relative;
 
 }
-nav li{
+nav li{ /*on retire les points des listes*/
 	list-style:none;
 }
 /*on cache les sous menu*/
-nav a{
+nav a{ /*on retire le style des liens */
 	display: inline-block;
 	text-decoration: none;
 }
-nav>ul>li>a{
+nav>ul>li>a{ /* espace entre les menu et leurs couleurs*/
 	padding: 20px 30px;
 	color:white;
 }
-nav>ul>li:hover a{
+nav>ul>li:hover a{ /* espace des sous menu*/
 	padding: 15px 30px 20px 30px;
 }
-nav li:hover .sousmenu{
+nav li:hover .sousmenu{ /*apparition et position des sous menu*/
 	display:inline-block;
 	position:absolute;
 	top:100%;
@@ -68,7 +68,7 @@ nav li:hover .sousmenu{
 	padding:0px;
 	z-index:1000;
 }
-.sousmenu li{
+.sousmenu li{ /*traint entre sous menu*/
 	border-bottom: 1px solid #000000;
 }
 /*Coloration quand on passe sur les onglet du menu déroulant*/
@@ -124,7 +124,8 @@ nav li:hover .sousmenu{
 .menu_Servicedaide .sousmenu{
 	background-color: #7FDD4C;
 }
-/*finle petit trait du haut du menu et la couleur du menu quand dessus*/
+/*fin:le petit trait du haut du menu et la couleur du menu quand dessus*/
+/*onglet deconnection*/
 .deconnection{
 	position:relative;
 	left:670px;
@@ -174,7 +175,7 @@ ul>li:hover .reponsecacher{
 
 /*_____________________________________Fin question réponse__________________*/
 /*____________________________Mise en forme contact us des réponses___________________*/
-
+/*temporaire poirn indication*/
 .contactus{
 	position: relative;
 	top:100px;
@@ -188,4 +189,5 @@ ul>li:hover .reponsecacher{
 .styledereponse{
 	margin-left:100px;
 }
+/*fin temporaire pour indication*/
 /*____________________________FIN Mise en forme contact us des réponses___________________*/
