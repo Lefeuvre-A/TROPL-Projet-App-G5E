@@ -29,6 +29,9 @@ Par Exemple ajouter des dossiers et sous dossiers permet une meilleur organisati
 
         6.Commenter son code.
 Cela est obligatoire et vitale sans cela le code deviendra ilisible.
+        
+        7.Tester votre code!
+Une fois des modifications apportés sur le github, télécharger puis tester toute les pages pour voire si tout marche correctement.
 
 Idée pour le site:-mise en place d'un systeme de question reponse
                   -création d'un forum basique
