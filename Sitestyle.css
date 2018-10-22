@@ -127,8 +127,8 @@ nav li:hover .sousmenu{ /*apparition et position des sous menu*/
 /*fin:le petit trait du haut du menu et la couleur du menu quand dessus*/
 /*onglet deconnection*/
 .deconnection{
-	position:relative;
-	left:670px;
+	position:absolute;
+	right:0px;
 }
 .deconnection:hover{
 	border-top:5px solid #18391E;
